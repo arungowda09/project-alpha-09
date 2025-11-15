@@ -1,0 +1,59 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+# This .gitignore file should be placed at the root of your Unity project directory
+#
+# Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
+#
+/[Ll]ibrary/
+/GBuildios/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Mm]emoryCaptures/
+
+# Ensure all meta files in Assets are included
+!/[Aa]ssets/**/*.meta
+
+# Ignore Firebase Editor meta files if explicitly required
+!/[Aa]ssets/[Ff]irebase/
+
+# Uncomment to ignore Asset Store Tools Plugin
+# /[Aa]ssets/AssetStoreTools*
+
+# JetBrains Rider plugin files
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Visual Studio cache and generated files
+.vscode/
+.gradle/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity3D generated files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+
+# Crashlytics
+crashlytics-
