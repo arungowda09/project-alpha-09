@@ -1,6 +1,6 @@
-# Memory Match Game (Unity)
+# Project Alpha – Gameplay Prototype (Unity)
 
-A card matching memory game developed in **Unity 2022 LTS** with focus on clean code architecture, stability, and platform compatibility.
+A card matching game developed in **Unity 2022 LTS** with focus on clean code architecture, stability, and platform compatibility.
 
 
 ---
