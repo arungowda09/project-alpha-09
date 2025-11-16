@@ -11,13 +11,20 @@ public class MenuScreen : MonoBehaviour
         
     }
 
+    // Play button click handler
     public void OnPlayButtonPressed()
     {
         AudioManager.Instance.PlayButtonTap();
-        
+
         Debug.Log("Play Button Pressed - Transition to Level Screen");
-        
-        SceneManager.LoadScene("LevelScreen");
+
+
+        if (SaveLoadManager.SaveExists())
+        {
+            SceneManager.LoadScene("GamePlay");
+        }
+        else
+            SceneManager.LoadScene("LevelScreen");
     }
 
     public void OnQuitButtonClicked()

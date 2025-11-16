@@ -10,6 +10,8 @@ public class AudioManager : MonoBehaviour
     public AudioClip mismatchSfx;
     public AudioClip gameOverSfx;
 
+    public AudioClip flipSfx;
+
     private AudioSource audioSource;
 
     void Awake()
@@ -45,6 +47,11 @@ public class AudioManager : MonoBehaviour
     public void PlayGameOver()
     {
         audioSource.PlayOneShot(gameOverSfx);
+    }
+
+    public void PlayFlip()
+    {
+        audioSource.PlayOneShot(flipSfx);
     }
 
     // General
